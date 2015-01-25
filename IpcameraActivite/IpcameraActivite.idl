@@ -1,0 +1,49 @@
+// IpcameraActivite.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(IpcameraActivite.tlb)，该类型库将成为
+// IpcameraActivite.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(C577E561-7AE8-4A82-98F8-4A3203712F05), version(1.0),
+  control ]
+library IpcameraActiviteLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CIpcameraActiviteCtrl 的主调度接口
+	[ 
+		uuid(6A8B8059-056E-4AD5-A7D4-1B8433D5C495)	
+	]
+	dispinterface _DIpcameraActivite
+	{
+		properties:
+		methods:
+	};
+
+	//  CIpcameraActiviteCtrl 的事件调度接口
+
+	[ 
+		uuid(98EBAAD6-18B2-4B10-AFD1-F24483521371)	
+	]
+	dispinterface _DIpcameraActiviteEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CIpcameraActiviteCtrl 的类信息
+	[
+		uuid(7153FE74-406D-4686-8922-B8DA32E1D88F)
+	]
+	coclass IpcameraActivite
+	{
+		[default] dispinterface _DIpcameraActivite;
+		[default, source] dispinterface _DIpcameraActiviteEvents;
+	};
+
+};

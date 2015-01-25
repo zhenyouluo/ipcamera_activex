@@ -1,0 +1,51 @@
+﻿生成启动时间为 2015-1-24 15:09:42。
+     1>项目“E:\Desktop\project\IpcameraActivite\IpcameraActivite\IpcameraActivite.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\midl.exe /D _DEBUG /W1 /nologo /char signed /env win32 /h "IpcameraActiviteidl.h" /tlb "Debug\IpcameraActivite.tlb" /robust IpcameraActivite.idl 
+         Processing .\IpcameraActivite.idl
+         IpcameraActivite.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Desktop\project\ipcamare\Doc\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\IpcameraActivite.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Desktop\project\ipcamare\Doc\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\IpcameraActivite.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt IpcameraActivite.cpp IpcameraActiviteCtrl.cpp IpcameraActivitePropPage.cpp Myipcameraactive.cpp
+         Myipcameraactive.cpp
+         IpcameraActivitePropPage.cpp
+         IpcameraActiviteCtrl.cpp
+         IpcameraActivite.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\IpcameraActivite.res" IpcameraActivite.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.ocx" /INCREMENTAL /NOLOGO E:\Desktop\project\ipcamare\Doc\lib\Ipcamera.lib /DEF:".\IpcameraActivite.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.lib" /MACHINE:X86 /DLL Debug\IpcameraActivite.res
+         Debug\IpcameraActivite.obj
+         Debug\IpcameraActiviteCtrl.obj
+         Debug\IpcameraActivitePropPage.obj
+         Debug\Myipcameraactive.obj
+         Debug\stdafx.obj
+            正在创建库 E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.lib 和对象 E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.exp
+         IpcameraActivite.vcxproj -> E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.ocx
+       RegisterOutput:
+         regsvr32 /s "E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.ocx"
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(1609,5): warning MSB3075: 命令“regsvr32 /s "E:\Desktop\project\IpcameraActivite\Debug\IpcameraActivite.ocx"”已退出，代码为 5。请验证您是否有足够的权限来运行此命令。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(1621,5): error MSB8011: Failed to register output. Please try enabling Per-user Redirection or register the component from a command prompt with elevated permissions.
+     1>已完成生成项目“E:\Desktop\project\IpcameraActivite\IpcameraActivite\IpcameraActivite.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.94
